@@ -1,6 +1,12 @@
 #!/bin/bash
+
 if [ "$(uname)" != "Linux" ]; then
     echo "Oops! Not running on Linux silly."
+    exit 1
+fi
+
+if ! command -v wget > /dev/null 2>&1; then
+    echo "Erm... 'wget' isn't instaled?"
     exit 1
 fi
 
