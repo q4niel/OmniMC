@@ -1,5 +1,8 @@
 *
 !.gitignore
 
+!run/
+!run/**/*
+
 !LICENSE
 !readme.md
