@@ -1,7 +1,8 @@
 *
 !.gitignore
 
-!bootstrap.sh
+!run/
+!run/**/*
 
 !LICENSE
 !readme.md
