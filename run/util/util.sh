@@ -18,3 +18,7 @@ requireCmd() {
         exit 1
     fi
 }
+
+pyrun() {
+    .meta/bin/pyrun/bin/pyrun "$@"
+}
